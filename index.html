@@ -4,66 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .blogpost {
-            background-color: lightblue;
-            color: black;
-            border: 5px dotted black;
-            width: 600px;
-        }
-
-        .image {
-            height: 300px;
-            width: 500px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>cashie</title>
 </head>
 <body>
-<h1> Minecraft Builds</h1>
-<p>I like to build things.</p>
-<ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-</ul>
-<div>
-<article class="blogpost">
-    <h2>Swamp House</h2>
-    <p>Posted by <a href="about.html">cashie</a>, on October 16th, 2022</p>
-    <img src="swamp.png" alt="swamp house floating on water, with a farm in the front and two rooms in an upstairs area." class="image">
 
-    <p>This swamp house is mostly a replica of a build made by Zaypixel, which I will link <a href="https://www.youtube.com/watch?v=x2fvHwCSGbk&t=928s">here</a>. Her build is made over a normal lake, but I have chosen to put mine in a swamp biome. She also has another build on her channel of a house she specifically made for a swamp biome.</p>
-    <table>
-        <tr>
-           <th>Materials</th>
-           <th>Quanitity</th>
-        </tr>
-        <tr>
-            <td>Oak Logs</td>
-            <td>128</td>
-        </tr>
-        <tr>
-            <td>Oak Planks</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>Oak Leaves</td>
-            <td>40</td>
-        </tr>
-        <tr>
-            <td>Oak Fences</td>
-            <td>32</td>
-        </tr>
-    </table>
-</article>
+    <h1>Minecraft Builds</h1>
+    <p>I like to build things.</p>
+    
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <section id="blog">
+        <h2>Recent Posts</h2>
+        <article class="blogpost">
 
-<article class="blogpost">
-    <h2>Classic Brick Cottage</h2>
-    <p>Posted by <a href="about.html">cashie</a>, on October 16th, 2022</p>
-    <img src="brick.png" alt="Brick house with seating in front, and a farm to the left" class="image">
+            <h3>Swamp House</h3>
+            <address><a href="about.html">cashie</a></address>
+            <time datetime="2022-10-16" title="October 16th, 2022" class="time">October 16th, 2022</time>
 
-    <p>This is a simple brick starter house that is aesthetic and small enough for one person. The farm on the right is an old fashioned one, with a simple roof to protect your crops. The interior of the first floor is open, with a bookshelf nook in the corner. The bedroom is up in the attic, with glass windows on the ceiling.</p>
-</article>
-</div>
+            <img src="swamp.png" alt="swamp house floating on water, with a farm in the front and two rooms in an upstairs area." class="image-h">
+
+            <p>This swamp house is mostly a replica of a build made by Zaypixel, which I will link <a href="https://www.youtube.com/watch?v=x2fvHwCSGbk&t=928s">here</a>. Her build is made over a normal lake, but I have chosen to put mine in a swamp biome. She also has another build on her channel of a house she specifically made for a swamp biome.</p>
+
+            <table>
+                <tr>
+                    <th>Materials</th>
+                    <th>Quanitity</th>
+                </tr>
+                <tr>
+                    <td>Oak Logs</td>
+                    <td>128</td>
+                </tr>
+                <tr>
+                    <td>Oak Planks</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Oak Leaves</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Oak Fences</td>
+                    <td>32</td>
+                </tr>
+            </table>
+        </article>
+
+        <article class="blogpost">
+
+            <h3>Classic Brick Cottage</h3>
+            <address><a href="about.html">cashie</a></address>
+            <time datetime="2022-10-16" title="October 16th, 2022" class="time">October 16th, 2022</time>
+
+            <img src="brick.png" alt="Brick house with seating in front, and a farm to the left" class="image-h">
+
+            <p>This is a simple brick starter house that is aesthetic and small enough for one person. The farm on the right is an old fashioned one, with a simple roof to protect your crops. The interior of the first floor is open, with a bookshelf nook in the corner. The bedroom is up in the attic, with glass windows on the ceiling.</p>
+        </article>
+    </section>
 </body>
 </html>
